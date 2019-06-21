@@ -1,0 +1,25 @@
+,MainM3U8ip,child_m3ips,.ts ips,status,grouptitle,HLS status,ASN_m3u8,ASN_childm3,ASN_ts,HOST_m3u8
+BET,104.31.7.163,['NONE'],['NONE'],Error,"""USA"",BET",,AS13335,['NONE'],['NONE'],cant reverse lookup
+Big Ten Network,161.0.157.38,{'161.0.157.38'},['NONE'],"Whois lookup failed for 161.0.157.38. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",Big Ten Network",,NONE,['NONE'],['NONE'],
+Bloomberg TV,151.101.193.194,"{'151.101.1.194', '151.101.193.194'}",['NONE'],Error,"""USA"",Bloomberg Television",,AS54113,"['AS54113', 'AS54113']",['NONE'],cant reverse lookup
+Bravo,161.0.157.5,{'161.0.157.5'},{'161.0.157.5'},"Whois lookup failed for 161.0.157.5. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",Bravo",yes,NONE,['NONE'],['NONE'],
+CNN,89.187.177.2,{'89.187.177.2'},{'89.187.177.2'},NONE,"""USA"",CNN (Opt-2)",no,AS60068,['AS60068'],['AS60068'],"('new-york-1.cdn77.com', [], ['89.187.177.2'])"
+CSPAN,204.237.142.162,{'204.237.142.162'},{'204.237.142.162'},NONE,"""USA"",C-SPAN",no,AS20940,['AS20940'],['AS20940'],cant reverse lookup
+Cartoon Network,161.0.157.9,{'161.0.157.9'},{'161.0.157.9'},"Whois lookup failed for 161.0.157.9. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",Cartoon Network (LA)",yes,NONE,['NONE'],['NONE'],
+Court TV,52.5.145.173,{'52.52.240.217'},{'192.229.210.181'},NONE,"""USA"",Court TV",yes,AS14618,['AS16509'],['AS15133'],"('ec2-52-5-145-173.compute-1.amazonaws.com', [], ['52.5.145.173'])"
+ESPN,104.24.118.202,['NONE'],['NONE'],Error,"""USA"",ESPNU",,AS13335,['NONE'],['NONE'],cant reverse lookup
+Fox Networks,161.0.157.6,{'161.0.157.6'},{'161.0.157.6'},"Whois lookup failed for 161.0.157.6. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",Fox Premium Movies (SAP)",yes,NONE,['NONE'],['NONE'],
+HBO,161.0.157.5,{'161.0.157.5'},{'161.0.157.5'},"Whois lookup failed for 161.0.157.5. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",HBO 2 (LA)",no,NONE,['NONE'],['NONE'],
+HLN,89.187.177.2,['NONE'],['NONE'],Error,"""USA"",HLN",,AS60068,['NONE'],['NONE'],"('new-york-1.cdn77.com', [], ['89.187.177.2'])"
+MSNBC,89.187.177.2,{'89.187.177.2'},{'89.187.177.2'},NONE,"""USA"",MSNBC",no,AS60068,['AS60068'],['AS60068'],"('new-york-1.cdn77.com', [], ['89.187.177.2'])"
+MTV,104.31.6.163,['NONE'],['NONE'],Error,"""USA"",MTV",,AS13335,['NONE'],['NONE'],cant reverse lookup
+Music Choice,69.241.50.46,['NONE'],"{'69.241.50.18', '69.241.50.46'}",NONE,"""USA"",Music Choice",no,AS7922,['NONE'],"['AS7922', 'AS7922']","('odol-atsec-den-07.aurora.co.denver.comcast.net', [], ['69.241.50.46'])"
+NBC,161.0.157.9,{'161.0.157.9'},{'161.0.157.9'},"Whois lookup failed for 161.0.157.9. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",NBC Golf",yes,NONE,['NONE'],['NONE'],
+QVC,69.164.0.0,['NONE'],['NONE'],Error,"""USA"",QVC 2",,AS22822,['NONE'],['NONE'],"('https-69-164-0-0.iad.llnw.net', [], ['69.164.0.0'])"
+TBS,NONE,['NONE'],['NONE'],Error,"""USA"",TBS (Opt-1)",,NONE,['NONE'],['NONE'],
+TV Land,104.31.6.163,['NONE'],['NONE'],Error,"""USA"",TV Land (Opt-1)",,AS13335,['NONE'],['NONE'],cant reverse lookup
+The CW,190.80.3.28,{'190.80.3.26'},{'190.80.3.26'},"Whois lookup failed for 190.80.3.28. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",CW (WSFL) (EST)",no,NONE,['NONE'],['NONE'],
+The Cooking Channel,161.0.157.5,{'161.0.157.5'},{'161.0.157.5'},"Whois lookup failed for 161.0.157.5. Rate limit exceeded, wait and try again (possibly a temporary block).","""USA"",Cooking Channel",yes,NONE,['NONE'],['NONE'],
+The Outdoor Cooking Channel,NONE,['NONE'],['NONE'],Error,"""USA"",The Outdoor Cooking Channel",,NONE,['NONE'],['NONE'],
+The Weather Channel,204.237.142.185,{'204.237.142.185'},{'204.237.142.185'},NONE,"""USA"",The Weather Channel",no,AS20940,['AS20940'],['AS20940'],cant reverse lookup
+VH1,54.241.227.83,['NONE'],{'192.229.210.181'},NONE,"""USA"",VH1 (Opt-1)",yes,AS16509,['NONE'],['AS15133'],"('ec2-54-241-227-83.us-west-1.compute.amazonaws.com', [], ['54.241.227.83'])"
