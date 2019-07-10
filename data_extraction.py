@@ -8,7 +8,7 @@ conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 mydb = conn.mydatabase_2
 myts = mydb.ts_url
 cur = list(myts.find({}, {'_id': False}))
-ts_url = cur[4]
+ts_url = cur[7]
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
 
@@ -31,6 +31,7 @@ def getDataAndLabelsTrain(ts_url):
     for k, v in ts_url.items():
 
         counter = alphabet_position(k) %10000000000
+                  # + int(str(alphabet_position(k))[:5])
 
         if v == []:
             s0 = 'dump'
@@ -57,6 +58,7 @@ def getDataAndLabelsTrain(ts_url):
                 for j in path_ascii:
                     a_list[j] += 1
                 line = ''.join(map(str, a_list))
+                print(len(line))
                 n = 16
                 the_list = [line[i:i + n] for i in range(0, len(line), n)]
                 path_status_1 = int(the_list[2])
@@ -87,7 +89,7 @@ def getDataAndLabelsTrain(ts_url):
                 data.append(split_list)
                 labels.append(counter)
 
-        print("s0 is ", s0)
+        # print("s0 is ", s0)
         urls[s0] = counter
         channels[k] = counter
 
@@ -98,7 +100,7 @@ def getDataAndLabelsTrain(ts_url):
 
 data, labels, channels_train, urls_train, headings = getDataAndLabelsTrain(ts_url)
 
-print(channels_train)
+# print(channels_train)
 
 # feature_imp = pd.Series(clf.feature_importances_, index=headings)
 # datapd = pd.DataFrame.from_records(data, columns=headings)

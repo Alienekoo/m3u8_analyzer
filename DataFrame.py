@@ -49,7 +49,7 @@ class DataFrame:
                         # print("key is ", key, m3ips)
                         self.new_dict[key]['child_m3ips'] = m3ips
                         #print("type of value3", type(value3))
-                        if isinstance(value3, list):
+                        if isinstance(value3, list) or value3 == {}:
                             self.new_dict[key]['status'] = "Error"
                             continue
                         self.read_ts(value3, key)
@@ -58,7 +58,7 @@ class DataFrame:
         return self.new_dict
 
     def read_ts(self,d, key):
-        # print(d)
+
         self.new_dict[key]['HLS status'] = d['Encryption']
         self.new_dict[key]['.ts ips'].append(list(set(d['tslist'])))
         if type(d['tslist'][0]) is tuple:

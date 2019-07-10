@@ -1,12 +1,6 @@
 import pymongo
 import ipdict
 import DataFrame
-import urllib.parse as urlparse
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn import svm
 import pandas as pd
 import random
 import datetime
@@ -24,20 +18,22 @@ def convertdot(d):
         new[k.replace('__DOT__', '.')] = v
     return new
 
-cur1 = convertdot(cur[6])
+cur1 = convertdot(cur[7])
 
 newdict = ipdict.IPdict(cur1)
-newone = newdict.getdict()
-ts_url = newdict.ts_URLs
 
+# ==================================== dataframe ===================================
+newone = newdict.getdict()
+newframe = DataFrame.DataFrame(newone)
+newframedict = newframe.read_channels()
+myframe = newframe.DataFramee()
+myframe.to_csv('file9.csv')
 print("playlists =  ", newdict.length_list)
 print("repositories = ", len(cur))
 
-# newframe = DataFrame.DataFrame(newone)
-# newframedict = newframe.read_channels()
-# myframe = newframe.DataFramee()
-# myframe.to_csv('file9.csv')
+# ======================================= ts_url ===================================
 
+ts_url = newdict.ts_URLs
 
 for k,v in ts_url.items():
     if len(v)<100:
@@ -46,7 +42,6 @@ for k,v in ts_url.items():
         ts_url[k] = random.sample(v, 100)
 
 
-pprint(ts_url)
 
 def convertdot(d):
     new = {}

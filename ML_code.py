@@ -12,26 +12,27 @@ conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 db = conn.mydatabase_2
 col = db.train_data
 cur = list(col.find({}, {'_id': False}))
-labels = cur[0]['labels']+cur[1]['labels']+ cur[2]['labels']+cur[3]['labels']
-
-data = cur[0]['data']+cur[1]['data']+ cur[2]['data']+cur[3]['data']
-
+labels = cur[0]['labels']+cur[6]['labels']
+#  cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
+data = cur[0]['data']+cur[6]['data']
+#  cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
+print(len(data))
 col1 = db.channels_train
 col2 = db.channels_train
 cur2 = list(col2.find({}, {'_id': False}))
 channels_train = dict()
 for i in range(len(cur2)):
+    print(len(cur2[i]))
     channels_train.update(cur2[i])
+    print(len(channels_train))
 # ================================================================= ML part ============================================================================================
 
 
-data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.33, random_state=42)
-
+data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.22, random_state=42)
+print(len(labels_test), len(labels_train))
 
 clf = RandomForestClassifier(n_estimators=100)
 clf.fit(data_train, labels_train)
-
-
 
 data_pred = clf.predict(data_test)
 score = clf.score(data_test, labels_test)
