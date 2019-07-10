@@ -98,7 +98,7 @@ class DataFrame:
                         self.new_dict[key]['ASN_ts'].append("AS" + res1['asn'])
                     self.new_dict[key]['ASN_ts'].remove('NONE')
 
-            except (ipwhois.exceptions.WhoisRateLimitError, ipwhois.exceptions.WhoisLookupError, ipwhois.exceptions.ASNRegistryError) as e:
+            except (ipwhois.exceptions.WhoisRateLimitError, ipwhois.exceptions.WhoisLookupError, ipwhois.exceptions.ASNRegistryError, ipwhois.exceptions.HTTPLookupError) as e:
                 self.new_dict[key]['status'] = str(e)
 
     def DataFramee(self):

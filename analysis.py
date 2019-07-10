@@ -50,8 +50,9 @@ def convertdot(d):
             v = convertdot(v)
         new[k.replace('.', '__DOT__')] = v
     return new
-
+'''
 ts_url1 = convertdot(ts_url)
 mydb = conn["mydatabase_2"]
 mycol = mydb["ts_url"]
 x = mycol.insert_one(ts_url1).inserted_id
+'''

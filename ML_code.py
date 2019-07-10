@@ -4,6 +4,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn import svm
 from sklearn import metrics
+import numpy as np
+from numpy import array
+import matplotlib.pyplot as plt
 import pandas as pd
 import random
 import pymongo
@@ -12,19 +15,18 @@ conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 db = conn.mydatabase_2
 col = db.train_data
 cur = list(col.find({}, {'_id': False}))
-labels = cur[0]['labels']+cur[6]['labels']
-#  cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
-data = cur[0]['data']+cur[6]['data']
-#  cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
-print(len(data))
+labels = cur[0]['labels']
+#  cur[0]['labels']+cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
+data = cur[0]['data']
+#  cur[0]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
+
 col1 = db.channels_train
 col2 = db.channels_train
 cur2 = list(col2.find({}, {'_id': False}))
 channels_train = dict()
 for i in range(len(cur2)):
-    print(len(cur2[i]))
     channels_train.update(cur2[i])
-    print(len(channels_train))
+
 # ================================================================= ML part ============================================================================================
 
 
@@ -33,14 +35,32 @@ print(len(labels_test), len(labels_train))
 
 clf = RandomForestClassifier(n_estimators=100)
 clf.fit(data_train, labels_train)
-
+importances = clf.feature_importances_
 data_pred = clf.predict(data_test)
 score = clf.score(data_test, labels_test)
 print("RamdomForest pred: ", data_pred)
 print("RandomForest score: ", score)
-
-
 print("Accuracy with randomForest data: ", metrics.accuracy_score(labels_test, data_pred))
+
+data_train = array(data_train)
+std = np.std([tree.feature_importances_ for tree in clf.estimators_],
+             axis=0)
+indices = np.argsort(importances)[::-1]
+
+# Print the feature ranking
+print("Feature ranking:")
+
+for f in range(data_train.shape[1]):
+    print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
+
+# Plot the feature importances of the forest
+plt.figure()
+plt.title("Feature importances")
+plt.bar(range(data_train.shape[1]), importances[indices],
+       color="r", yerr=std[indices], align="center")
+plt.xticks(range(data_train.shape[1]), indices)
+plt.xlim([-1, data_train.shape[1]])
+plt.show()
 
 
 '''for i in range(len(labels_test)):
@@ -48,11 +68,11 @@ print("Accuracy with randomForest data: ", metrics.accuracy_score(labels_test, d
         if v == labels_test[i]:
             print("label is: ", k)
         if v == data_pred[i]:
-            print("pred is: ", k)'''
+            print("pred is: ", k)
 
 
 
-'''
+
 lr = LogisticRegression(solver='lbfgs', multi_class='auto', max_iter=10000)
 lr.fit(data_train, labels_train)
 predictions = lr.predict(data_test)
