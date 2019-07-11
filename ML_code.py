@@ -15,14 +15,19 @@ conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 db = conn.mydatabase_2
 col = db.train_data
 cur = list(col.find({}, {'_id': False}))
-labels = cur[0]['labels']
+labels = cur[1]['labels']
 #  cur[0]['labels']+cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
-data = cur[0]['data']
+data = cur[1]['data']
 #  cur[0]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
 
-col1 = db.channels_train
+col1 = db.test_data
+cur1 = list(col1.find({}, {'_id': False}))
+data_test = cur1[0]['data']
 col2 = db.channels_train
 cur2 = list(col2.find({}, {'_id': False}))
+
+#  cur[1]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
+
 channels_train = dict()
 for i in range(len(cur2)):
     channels_train.update(cur2[i])
@@ -37,8 +42,11 @@ clf = RandomForestClassifier(n_estimators=100)
 clf.fit(data_train, labels_train)
 importances = clf.feature_importances_
 data_pred = clf.predict(data_test)
-score = clf.score(data_test, labels_test)
 print("RamdomForest pred: ", data_pred)
+
+
+
+score = clf.score(data_test, labels_test)
 print("RandomForest score: ", score)
 print("Accuracy with randomForest data: ", metrics.accuracy_score(labels_test, data_pred))
 
@@ -63,15 +71,16 @@ plt.xlim([-1, data_train.shape[1]])
 plt.show()
 
 
-'''for i in range(len(labels_test)):
+for i in range(len(data_test)):
     for k,v in channels_train.items():
-        if v == labels_test[i]:
-            print("label is: ", k)
+
         if v == data_pred[i]:
             print("pred is: ", k)
+        if v == labels_test[i]:
+            print("label is: ", k)
 
 
-
+'''
 
 lr = LogisticRegression(solver='lbfgs', multi_class='auto', max_iter=10000)
 lr.fit(data_train, labels_train)

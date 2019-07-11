@@ -51,6 +51,9 @@ class IPdict:
 
             # if key is url
             if self.verifyurl(k) == True:
+
+                if "://" not in k:
+                    k = k.replace(':', '://', 1)
                 k = str(str(k.split('//', 1)[1]).split('/', 1)[0])
                 try:
                     new[socket.gethostbyname(k),datetime.datetime.now()] = v
