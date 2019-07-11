@@ -1,57 +1,64 @@
-,grouptitle,MainM3U8ip,child_m3ips,.ts ips,status,ASN_m3u8,ASN_childm3,ASN_ts,HOST_m3u8,HLS status
-1 HD,"['""RUSSIA"",1 HD']",[],['NONE'],[],Error,[],['NONE'],[],,
-1 Music Channel,"['""HUNGARY"",1 Music Channel']",['92.249.129.152'],['NONE'],"[['92.249.129.152'], ['92.249.129.152'], ['92.249.129.152']]",NONE,['AS20845'],['NONE'],"['AS20845', 'AS20845', 'AS20845']","('1mstream.digicable.hu', [], ['92.249.129.152'])",no
-100 Automoto TV,"['""BULGARIA"",100 Automoto TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-2x2 TV,"['""RUSSIA"",2x2 TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-43 Kanal Tuapse,"['""RUSSIA"",43 Kanal Tuapse']",[],['NONE'],[],Error,[],['NONE'],[],,
-7 TV,"['""RUSSIA"",7 TV']",['78.40.108.218'],['NONE'],[],Error,['AS48716'],['NONE'],[],cant reverse lookup,
-8 Kanal,"['""RUSSIA"",8 Kanal']",['83.137.54.212'],{'83.137.54.212'},[['83.137.54.212']],NONE,['AS31415'],['AS31415'],['AS31415'],"('83.137.54.212.svnet.ru', [], ['83.137.54.212'])",no
-ATV Ulan-Udje,"['""RUSSIA"",ATV Ulan-Udje']",['212.0.69.146'],{'212.0.69.146'},[['212.0.69.146']],NONE,['AS8828'],['AS8828'],['AS8828'],"('ford-galaxie.burnet.ru', [], ['212.0.69.146'])",no
-Akudji TV,"['""RUSSIA"",Akudji TV']",['195.9.195.2'],['NONE'],"[['195.9.195.2', '195.9.195.3'], ['195.9.195.2', '195.9.195.3'], ['195.9.195.2', '195.9.195.3']]",NONE,['AS25513'],['NONE'],"['AS25513', 'AS25513', 'AS25513']",cant reverse lookup,no
-Amediateka HBO,"['""RUSSIA"",Amediateka HBO']",['93.189.224.14'],['NONE'],[],Error,['AS199102'],['NONE'],[],cant reverse lookup,
-Astrakhan 24,"['""RUSSIA"",Astrakhan 24']",['91.211.143.214'],{'91.211.143.214'},"[['91.211.143.214'], ['91.211.143.214'], ['91.211.143.214']]",NONE,['AS44941'],['AS44941'],"['AS44941', 'AS44941', 'AS44941']","('ns2.hosting.astrakhan.ru', [], ['91.211.143.214'])",no
-Bonum TV,"['""HUNGARY"",Bonum TV']",['185.92.118.21'],['NONE'],"[['185.92.118.21', '185.92.118.30'], ['185.92.118.21', '185.92.118.30'], ['185.92.118.21', '185.92.118.30']]",NONE,['AS51920'],['NONE'],"['AS51920', 'AS51920', 'AS51920']","('185-92-118-21.y5.hu', [], ['185.92.118.21'])",no
-Boutique TV,"['""RUSSIA"",Boutique TV']",['213.174.131.242'],{'213.174.131.242'},[['213.174.131.242']],NONE,['AS39572'],['AS39572'],['AS39572'],cant reverse lookup,no
-Budapest Europa Televizio,"['""HUNGARY"",Budapest Europa Televizio']",[],['NONE'],[],Error,[],['NONE'],[],,
-Bulgaria ON AIR,"['""BULGARIA"",Bulgaria ON AIR']",[],['NONE'],[],Error,[],['NONE'],[],,
-CGTN,"['""RUSSIA"",CGTN']",['23.236.125.230'],['NONE'],"[['23.236.125.230'], ['23.236.125.230'], ['23.236.125.230']]",NONE,['AS21859'],['NONE'],"['AS21859', 'AS21859', 'AS21859']",cant reverse lookup,no
-CGTRK Grozny,"['""RUSSIA"",CGTRK Grozny']",['83.222.205.22'],{'83.222.205.22'},"[['83.222.205.22'], ['83.222.205.22'], ['83.222.205.22']]",NONE,['AS6854'],['AS6854'],"['AS6854', 'AS6854', 'AS6854']",cant reverse lookup,no
-CP Info,"['""RUSSIA"",CP Info']",['109.68.40.67'],{'109.68.40.67'},"[['109.68.40.67'], ['109.68.40.67'], ['109.68.40.67']]",NONE,['AS25372'],['AS25372'],"['AS25372', 'AS25372', 'AS25372']","('edge0.cdn.itcons.net.ua', [], ['109.68.40.67'])",no
-Channel 1 (Opt-1) (New!),"['""RUSSIA"",Channel 1 (Opt-1) (New!)']",[],['NONE'],[],Error,[],['NONE'],[],,
-Channel 1 (Opt-2) (New!),"['""RUSSIA"",Channel 1 (Opt-2) (New!)']",['92.43.140.249'],['NONE'],"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['NONE'],"['AS44395', 'AS44395', 'AS44395']","('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])",no
-Cherno More,"['""BULGARIA"",Cherno More']",[],['NONE'],[],Error,[],['NONE'],[],,
-Diema,"['""BULGARIA"",Diema']",['84.43.207.130'],['NONE'],[],Error,['AS21230'],['NONE'],[],"('cable-84-43-207-130.mnet.bg', [], ['84.43.207.130'])",
-Dunaujvaros Televizio,"['""HUNGARY"",Dunaujvaros Televizio']",[],['NONE'],[],Error,[],['NONE'],[],,
-Fehervar TV,"['""HUNGARY"",Fehervar TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Fix TV (Opt-1),"['""HUNGARY"",Fix TV (Opt-1)']",[],['NONE'],[],Error,[],['NONE'],[],,
-Fresh TV,"['""RUSSIA"",Fresh TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Grozny TV,"['""RUSSIA"",Grozny TV']",['83.222.205.22'],{'83.222.205.22'},"[['83.222.205.22'], ['83.222.205.22'], ['83.222.205.22']]",NONE,['AS6854'],['AS6854'],"['AS6854', 'AS6854', 'AS6854']",cant reverse lookup,no
-HD Media 3D,"['""RUSSIA"",HD Media 3D']",[],['NONE'],[],Error,[],['NONE'],[],,
-Heavy Metal TV,"['""BULGARIA"",Heavy Metal TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Hit Music Channel,"['""HUNGARY"",Hit Music Channel']",['92.249.129.152'],['NONE'],"[['92.249.129.152'], ['92.249.129.152'], ['92.249.129.152']]",NONE,['AS20845'],['NONE'],"['AS20845', 'AS20845', 'AS20845']","('1mstream.digicable.hu', [], ['92.249.129.152'])",no
-Impact,"['""RUSSIA"",Impact']",[],['NONE'],[],Error,[],['NONE'],[],,
-In Life TV,"['""BULGARIA"",In Life TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Ingushetiya TV,"['""RUSSIA"",Ingushetiya TV']",['213.174.131.242'],{'213.174.131.242'},[['213.174.131.242']],NONE,['AS39572'],['AS39572'],['AS39572'],cant reverse lookup,no
-Izvestia,"['""RUSSIA"",Izvestia']",['213.174.131.246'],{'213.174.131.246'},[['213.174.131.246']],NONE,['AS39572'],['AS39572'],['AS39572'],cant reverse lookup,no
-K1,"['""RUSSIA"",K1']",['109.68.40.67'],{'109.68.40.67'},"[['109.68.40.67'], ['109.68.40.67'], ['109.68.40.67']]",NONE,['AS25372'],['AS25372'],"['AS25372', 'AS25372', 'AS25372']","('edge0.cdn.itcons.net.ua', [], ['109.68.40.67'])",no
-Kanal 0 Burgas,"['""BULGARIA"",Kanal 0 Burgas']",['104.28.2.47'],['NONE'],[],Error,['AS13335'],['NONE'],[],cant reverse lookup,
-Kecskemeti TV,"['""HUNGARY"",Kecskemeti TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-MU-Vi TV,"['""BULGARIA"",MU-Vi TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Planeta TV,"['""BULGARIA"",Planeta TV']",['84.43.207.130'],['NONE'],[],Error,['AS21230'],['NONE'],[],"('cable-84-43-207-130.mnet.bg', [], ['84.43.207.130'])",
-Roma TV,"['""BULGARIA"",Roma TV']",['185.46.161.3'],['NONE'],[],Error,['AS31287'],['NONE'],[],"('185.46.161.3.ipacct.net', [], ['185.46.161.3'])",
-TV Alfa,"['""BULGARIA"",TV Alfa']",[],['NONE'],[],Error,[],['NONE'],[],,
-TV Evropa,"['""BULGARIA"",TV Evropa']",['84.43.207.130'],['NONE'],[],Error,['AS21230'],['NONE'],[],"('cable-84-43-207-130.mnet.bg', [], ['84.43.207.130'])",
-TV Imperium Gliwice,"['""POLAND"",TV Imperium Gliwice']",['104.18.57.1'],['NONE'],[],Error,['AS13335'],['NONE'],[],cant reverse lookup,
-TV Kujawy (Opt-1),"['""POLAND"",TV Kujawy (Opt-1)']",[],['NONE'],[],Error,[],['NONE'],[],,
-TV Stara Zagora,"['""BULGARIA"",TV Stara Zagora']",[],['NONE'],[],Error,[],['NONE'],[],,
-TV Torun,"['""POLAND"",TV Torun']",[],['NONE'],[],Error,[],['NONE'],[],,
-TV Zagora,"['""BULGARIA"",TV Zagora']",[],['NONE'],[],Error,[],['NONE'],[],,
-TVT Zgorzelec,"['""POLAND"",TVT Zgorzelec']",['46.148.166.13'],['NONE'],"[['46.148.166.13'], ['46.148.166.13'], ['46.148.166.13']]",NONE,['AS197405'],['NONE'],"['AS197405', 'AS197405', 'AS197405']","('gargoyle.tomkow.pl', [], ['46.148.166.13'])",no
-Travel TV,"['""BULGARIA"",Travel TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Truso TV,"['""POLAND"",Truso TV']",[],['NONE'],[],Error,[],['NONE'],[],,
-Twoja TV (Opt-1),"['""POLAND"",Twoja TV (Opt-1)']",['94.246.169.19'],['NONE'],"[['94.246.169.19'], ['94.246.169.19'], ['94.246.169.19']]",NONE,['AS201925'],['NONE'],"['AS201925', 'AS201925', 'AS201925']","('19.169.246.94.artnmedia.pl', [], ['94.246.169.19'])",no
-Twoja TV (Opt-2),"['""POLAND"",Twoja TV (Opt-2)']",['94.246.169.19'],['NONE'],"[['94.246.169.19'], ['94.246.169.19'], ['94.246.169.19']]",NONE,['AS201925'],['NONE'],"['AS201925', 'AS201925', 'AS201925']","('19.169.246.94.artnmedia.pl', [], ['94.246.169.19'])",no
-V2Beat,"['""BULGARIA"",V2Beat']",['138.201.39.171'],{'138.201.39.171'},[['138.201.39.171']],NONE,['AS24940'],['AS24940'],['AS24940'],"('de1se01.v2beat.live', [], ['138.201.39.171'])",no
-VTK,"['""BULGARIA"",VTK']",[],['NONE'],[],Error,[],['NONE'],[],,
-bTV Cinema,"['""BULGARIA"",bTV Cinema']",['84.43.207.130'],['NONE'],[],Error,['AS21230'],['NONE'],[],"('cable-84-43-207-130.mnet.bg', [], ['84.43.207.130'])",
-eTV,"['""BULGARIA"",eTV']",['195.24.89.20'],['NONE'],[],Error,['AS25374'],['NONE'],[],cant reverse lookup,
+,grouptitle,MainM3U8ip,child_m3ips,.ts ips,status,ASN_m3u8,ASN_childm3,ASN_ts,HLS status,HOST_m3u8
+* Fluxus.tv,"['""* Fluxus.tv > Play On!"",* Fluxus.tv']",[],['NONE'],[],Error,[],['NONE'],[],,
++ IPTV,"['""+ IPTV - Permanent Playlist"",+ IPTV']",[],['NONE'],[],Error,[],['NONE'],[],,
+- Always Refresh!,"['""- Update: 06.24.2019"",- Always Refresh!']",[],['NONE'],[],Error,[],['NONE'],[],,
+24-7 Retro TV,"['""USA"",24-7 Retro TV']",[],['NONE'],[],Error,[],['NONE'],[],,
+30A Music,"['""USA"",30A Music']",['142.54.172.51'],['NONE'],"[['142.54.172.52'], ['142.54.172.52'], ['142.54.172.52']]",NONE,['AS33387'],['NONE'],"['AS33387', 'AS33387', 'AS33387']",no,cant reverse lookup
+30A TV,"['""USA"",30A TV']",['142.54.172.51'],['NONE'],"[['142.54.172.52'], ['142.54.172.52'], ['142.54.172.52']]",NONE,['AS33387'],['NONE'],"['AS33387', 'AS33387', 'AS33387']",no,cant reverse lookup
+ABC (KABC) (PST),"['""USA"",ABC (KABC) (PST)']",['54.67.36.14'],['NONE'],"[['192.229.210.181'], ['192.229.210.181'], ['192.229.210.181']]",NONE,['AS16509'],['NONE'],"['AS15133', 'AS15133', 'AS15133']",yes,"('ec2-54-67-36-14.us-west-1.compute.amazonaws.com', [], ['54.67.36.14'])"
+ABC (WWSB) (EST),"['""USA"",ABC (WWSB) (EST)']",['104.16.60.230'],['NONE'],[],Error,['AS13335'],['NONE'],[],,cant reverse lookup
+ABC News (HD),"['""USA"",ABC News (HD)']",['23.221.72.41'],['NONE'],"[['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41']]",NONE,['AS20940'],['NONE'],"['AS20940', 'AS20940', 'AS20940']",no,"('a23-221-72-41.deploy.static.akamaitechnologies.com', [], ['23.221.72.41'])"
+ABC News (SD),"['""USA"",ABC News (SD)']",['23.221.72.41'],{'23.221.72.41'},"[['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41'], ['23.221.72.41']]",NONE,['AS20940'],['AS20940'],"['AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940']",no,"('a23-221-72-41.deploy.static.akamaitechnologies.com', [], ['23.221.72.41'])"
+AKC TV,"['""USA"",AKC TV']",['99.84.104.65'],['NONE'],"[['99.84.104.4', '99.84.104.65'], ['99.84.104.4', '99.84.104.65'], ['99.84.104.4', '99.84.104.65']]",NONE,['AS16509'],['NONE'],"['AS16509', 'AS16509', 'AS16509']",no,"('server-99-84-104-65.iad79.r.cloudfront.net', [], ['99.84.104.65'])"
+Action Sports 4U,"['""USA"",Action Sports 4U']",['159.65.251.40'],['NONE'],[],Error,['AS14061'],['NONE'],[],,cant reverse lookup
+Adventure Sports Network,"['""USA"",Adventure Sports Network']",['192.229.163.69'],['NONE'],"[['192.229.163.69', '93.184.215.178', '130.211.30.27'], ['192.229.163.69', '93.184.215.178', '130.211.30.27'], ['192.229.163.69', '93.184.215.178', '130.211.30.27']]",NONE,['AS15133'],['NONE'],"['AS15133', 'AS15133', 'AS15133']",no,cant reverse lookup
+Al Jazeera English (Opt-1) (QA),"['""24/7 WORLD NEWS"",Al Jazeera English (Opt-1) (QA)']",['8.253.131.121'],{'8.253.131.121'},"[['8.253.131.121'], ['8.253.131.121'], ['8.253.131.121'], ['8.253.131.121'], ['8.253.131.121'], ['8.253.131.121']]",NONE,['AS3356'],['AS3356'],"['AS3356', 'AS3356', 'AS3356', 'AS3356', 'AS3356', 'AS3356']",no,cant reverse lookup
+Al Jazeera English (Opt-2) (QA),"['""24/7 WORLD NEWS"",Al Jazeera English (Opt-2) (QA)']",['92.43.140.249'],{'92.43.140.249'},"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['AS44395'],"['AS44395', 'AS44395', 'AS44395']",no,"('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])"
+America's Funniest Videos,"['""USA"",America\'s Funniest Videos']",['192.229.163.69'],['NONE'],"[['192.229.163.69', '93.184.215.178', '130.211.30.27'], ['192.229.163.69', '93.184.215.178', '130.211.30.27'], ['192.229.163.69', '93.184.215.178', '130.211.30.27']]",NONE,['AS15133'],['NONE'],"['AS15133', 'AS15133', 'AS15133']",no,cant reverse lookup
+American Horrors,"['""USA"",American Horrors']",[],['NONE'],[],Error,[],['NONE'],[],,
+Animal Planet*,"['""USA"",Animal Planet*']",['80.80.160.168'],{'80.80.160.168'},"[['80.80.160.168'], ['80.80.160.168'], ['80.80.160.168']]",NONE,['AS21246'],['AS21246'],"['AS21246', 'AS21246', 'AS21246']",no,cant reverse lookup
+Apple Sauce Network,"['""USA"",Apple Sauce Network']",['159.65.251.40'],['NONE'],[],Error,['AS14061'],['NONE'],[],,cant reverse lookup
+Arirang (Opt-1) (KR),"['""24/7 WORLD NEWS"",Arirang (Opt-1) (KR)']",['23.221.72.24'],{'23.221.72.24'},"[['23.221.72.24'], ['23.221.72.24'], ['23.221.72.24'], ['23.221.72.24']]",NONE,['AS20940'],['AS20940'],"['AS20940', 'AS20940', 'AS20940', 'AS20940']",no,"('a23-221-72-24.deploy.static.akamaitechnologies.com', [], ['23.221.72.24'])"
+Arirang (Opt-2) (KR),"['""24/7 WORLD NEWS"",Arirang (Opt-2) (KR)']",[],['NONE'],[],Error,[],['NONE'],[],,
+Atlanta Channel,"['""USA"",Atlanta Channel']",[],['NONE'],[],Error,[],['NONE'],[],,
+BBC World News (Opt-1) (GB),"['""24/7 WORLD NEWS"",BBC World News (Opt-1) (GB)']",['92.43.140.249'],{'92.43.140.249'},"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['AS44395'],"['AS44395', 'AS44395', 'AS44395']",no,"('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])"
+BBC World News (Opt-2) (GB),"['""24/7 WORLD NEWS"",BBC World News (Opt-2) (GB)']",['185.59.223.29'],['NONE'],"[['185.59.223.29'], ['185.59.223.29'], ['185.59.223.29']]",NONE,['AS60068'],['NONE'],"['AS60068', 'AS60068', 'AS60068']",no,"('new-york-8.cdn77.com', [], ['185.59.223.29'])"
+BBC World News (Opt-3) (GB),"['""24/7 WORLD NEWS"",BBC World News (Opt-3) (GB)']",['92.43.140.249'],['NONE'],"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['NONE'],"['AS44395', 'AS44395', 'AS44395']",no,"('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])"
+BET,"['""USA"",BET']",['104.31.7.163'],['NONE'],[],Error,['AS13335'],['NONE'],[],,cant reverse lookup
+BYUtv (HD),"['""USA"",BYUtv (HD)']",['204.237.142.155'],['NONE'],"[['204.237.142.155'], ['204.237.142.155'], ['204.237.142.155']]",NONE,['AS20940'],['NONE'],"['AS20940', 'AS20940', 'AS20940']",no,cant reverse lookup
+BYUtv (SD),"['""USA"",BYUtv (SD)']",['204.237.142.155'],['NONE'],"[['204.237.142.155'], ['204.237.142.155'], ['204.237.142.155']]",NONE,['AS20940'],['NONE'],"['AS20940', 'AS20940', 'AS20940']",no,cant reverse lookup
+Beach TV - 30A,"['""USA"",Beach TV - 30A']",[],['NONE'],[],Error,[],['NONE'],[],,
+Beach TV - Panama City,"['""USA"",Beach TV - Panama City']",[],['NONE'],[],Error,[],['NONE'],[],,
+Beach TV - Pawleys Island,"['""USA"",Beach TV - Pawleys Island']",[],['NONE'],[],Error,[],['NONE'],[],,
+Beauty IQ,"['""USA"",Beauty IQ']",['69.164.0.0'],{'69.164.0.0'},"[['69.164.0.0'], ['69.164.0.0'], ['69.164.0.0'], ['69.164.0.0'], ['69.164.0.0'], ['69.164.0.0'], ['69.164.0.0']]",NONE,['AS22822'],['AS22822'],"['AS22822', 'AS22822', 'AS22822', 'AS22822', 'AS22822', 'AS22822', 'AS22822']",no,"('https-69-164-0-0.iad.llnw.net', [], ['69.164.0.0'])"
+Bloomberg Television (Opt-1),"['""USA"",Bloomberg Television (Opt-1)']",['151.101.193.194'],"{'151.101.1.194', '151.101.193.194'}",[],Error,['AS54113'],"['AS54113', 'AS54113']",[],,cant reverse lookup
+Bloomberg Television (Opt-2),"['""USA"",Bloomberg Television (Opt-2)']",['210.210.155.35'],{'210.210.155.35'},[['210.210.155.35']],NONE,['AS4787'],['AS4787'],['AS4787'],no,"('210-210-155-35.cbn.net.id', [], ['210.210.155.35'])"
+Buzzr,"['""USA"",Buzzr']",['151.101.193.194'],['NONE'],"[['151.101.1.194', '151.101.193.194'], ['151.101.1.194', '151.101.193.194'], ['151.101.1.194', '151.101.193.194']]",NONE,['AS54113'],['NONE'],"['AS54113', 'AS54113', 'AS54113']",no,cant reverse lookup
+C-SPAN,"['""USA"",C-SPAN']",['204.237.142.162'],{'204.237.142.162'},"[['204.237.142.162'], ['204.237.142.162']]",NONE,['AS20940'],['AS20940'],"['AS20940', 'AS20940']",no,cant reverse lookup
+C-SPAN 2,"['""USA"",C-SPAN 2']",['204.237.142.162'],{'204.237.142.162'},"[['204.237.142.162'], ['204.237.142.162']]",NONE,['AS20940'],['AS20940'],"['AS20940', 'AS20940']",no,cant reverse lookup
+C-SPAN 3,"['""USA"",C-SPAN 3']",['204.237.142.162'],{'204.237.142.162'},"[['204.237.142.162'], ['204.237.142.162']]",NONE,['AS20940'],['AS20940'],"['AS20940', 'AS20940']",no,cant reverse lookup
+CBS (WFOR) (EST),"['""USA"",CBS (WFOR) (EST)']",['161.0.157.50'],['NONE'],"[['161.0.157.50'], ['161.0.157.50'], ['161.0.157.50']]",NONE,['AS27800'],['NONE'],"['AS27800', 'AS27800', 'AS27800']",no,cant reverse lookup
+CBS (WPEC) (EST),"['""USA"",CBS (WPEC) (EST)']",[],['NONE'],[],Error,[],['NONE'],[],,
+CGTN (Opt-1) (CN),"['""24/7 WORLD NEWS"",CGTN (Opt-1) (CN)']",['23.236.125.236'],['NONE'],"[['23.236.125.236'], ['23.236.125.236'], ['23.236.125.236']]",NONE,['AS21859'],['NONE'],"['AS21859', 'AS21859', 'AS21859']",no,cant reverse lookup
+CGTN (Opt-2) (CN),"['""24/7 WORLD NEWS"",CGTN (Opt-2) (CN)']",['23.236.125.236'],['NONE'],"[['23.236.125.236'], ['23.236.125.236'], ['23.236.125.236']]",NONE,['AS21859'],['NONE'],"['AS21859', 'AS21859', 'AS21859']",no,cant reverse lookup
+CGTN America (CN),"['""24/7 WORLD NEWS"",CGTN America (CN)']",['151.101.194.29'],['NONE'],[],Error,['AS54113'],['NONE'],[],,cant reverse lookup
+CNA (Opt-1) (SG),"['""24/7 WORLD NEWS"",CNA (Opt-1) (SG)']",['99.84.106.3'],['NONE'],"[['99.84.106.6', '99.84.106.3'], ['99.84.106.6', '99.84.106.3'], ['99.84.106.6', '99.84.106.3']]",NONE,['AS16509'],['NONE'],"['AS16509', 'AS16509', 'AS16509']",no,"('server-99-84-106-3.iad79.r.cloudfront.net', [], ['99.84.106.3'])"
+CNA (Opt-2) (SG),"['""24/7 WORLD NEWS"",CNA (Opt-2) (SG)']",['210.210.155.35'],['NONE'],"[['210.210.155.35'], ['210.210.155.35'], ['210.210.155.35']]",NONE,['AS4787'],['NONE'],"['AS4787', 'AS4787', 'AS4787']",no,"('210-210-155-35.cbn.net.id', [], ['210.210.155.35'])"
+CNBC World (US),"['""24/7 WORLD NEWS"",CNBC World (US)']",['161.0.157.9'],['NONE'],"[['161.0.157.9'], ['161.0.157.9'], ['161.0.157.9']]",NONE,['AS27800'],['NONE'],"['AS27800', 'AS27800', 'AS27800']",no,cant reverse lookup
+CNN International (Opt-1) (US),"['""24/7 WORLD NEWS"",CNN International (Opt-1) (US)']",['92.43.140.249'],{'92.43.140.249'},"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['AS44395'],"['AS44395', 'AS44395', 'AS44395']",no,"('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])"
+CNN International (Opt-2) (US),"['""24/7 WORLD NEWS"",CNN International (Opt-2) (US)']",['92.43.140.249'],['NONE'],"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['NONE'],"['AS44395', 'AS44395', 'AS44395']",no,"('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])"
+CNN International (Opt-3) (US),"['""24/7 WORLD NEWS"",CNN International (Opt-3) (US)']",['93.189.224.14'],['NONE'],[],Error,['AS199102'],['NONE'],[],,cant reverse lookup
+California Music Channel,"['""USA"",California Music Channel']",['63.251.19.13'],{'63.251.19.13'},"[['63.251.19.6', '63.251.19.13']]",NONE,['AS13789'],['AS13789'],['AS13789'],no,"('cdce.nym011.internap.com', [], ['63.251.19.13'])"
+Cartoons 4U,"['""USA"",Cartoons 4U']",['66.165.242.218'],{'66.165.242.218'},[['66.165.242.218']],NONE,['AS29802'],['AS29802'],['AS29802'],no,"('66-165-242-218.static.hvvc.us', [], ['66.165.242.218'])"
+DW (DE),"['""24/7 WORLD NEWS"",DW (DE)']",['204.237.142.169'],{'204.237.142.169'},"[['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169'], ['204.237.142.169']]",NONE,['AS20940'],['AS20940'],"['AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940', 'AS20940']",no,cant reverse lookup
+France 24 (FR),"['""24/7 WORLD NEWS"",France 24 (FR)']",['204.237.142.153'],['NONE'],"[['204.237.142.153'], ['204.237.142.153'], ['204.237.142.153']]",NONE,['AS20940'],['NONE'],"['AS20940', 'AS20940', 'AS20940']",no,cant reverse lookup
+NHK World (JP),"['""24/7 WORLD NEWS"",NHK World (JP)']",['23.221.72.42'],['NONE'],"[['23.221.72.42'], ['23.221.72.42'], ['23.221.72.42']]",NONE,['AS20940'],['NONE'],"['AS20940', 'AS20940', 'AS20940']",no,"('a23-221-72-42.deploy.static.akamaitechnologies.com', [], ['23.221.72.42'])"
+RT America (HD) (RU),"['""24/7 WORLD NEWS"",RT America (HD) (RU)']",['8.253.45.216'],['NONE'],"[['8.253.45.216', '8.252.65.139'], ['8.253.45.216', '8.252.65.139'], ['8.253.45.216', '8.252.65.139']]",NONE,['AS3356'],['NONE'],"['AS3356', 'AS3356', 'AS3356']",no,cant reverse lookup
+RT America (Opt-1) (RU),"['""24/7 WORLD NEWS"",RT America (Opt-1) (RU)']",['8.253.132.40'],{'8.253.132.40'},"[['8.253.132.40', '8.249.216.20'], ['8.253.132.40'], ['8.253.132.40'], ['8.253.132.40'], ['8.253.132.40']]",NONE,['AS3356'],['AS3356'],"['AS3356', 'AS3356', 'AS3356', 'AS3356', 'AS3356']",no,cant reverse lookup
+RT America (Opt-2) (RU),"['""24/7 WORLD NEWS"",RT America (Opt-2) (RU)']",['92.43.140.249'],{'92.43.140.249'},"[['92.43.140.249'], ['92.43.140.249'], ['92.43.140.249']]",NONE,['AS44395'],['AS44395'],"['AS44395', 'AS44395', 'AS44395']",no,"('host-249.140.43.92.ucom.am', [], ['92.43.140.249'])"
+RT UK (RU),"['""24/7 WORLD NEWS"",RT UK (RU)']",['8.253.132.40'],{'8.253.132.40'},"[['8.252.158.11', '8.253.132.40'], ['8.253.132.40'], ['8.253.132.40'], ['8.253.132.40'], ['8.253.132.40']]",NONE,['AS3356'],['AS3356'],"['AS3356', 'AS3356', 'AS3356', 'AS3356', 'AS3356']",no,cant reverse lookup
+Sky News America (UK),"['""24/7 WORLD NEWS"",Sky News America (UK)']",['99.84.104.120'],['NONE'],"[['99.84.104.120', '99.84.104.26'], ['99.84.104.120', '99.84.104.26'], ['99.84.104.120', '99.84.104.26']]",NONE,['AS16509'],['NONE'],"['AS16509', 'AS16509', 'AS16509']",no,"('server-99-84-104-120.iad79.r.cloudfront.net', [], ['99.84.104.120'])"
+TRT World (TR),"['""24/7 WORLD NEWS"",TRT World (TR)']",['23.217.129.139'],{'23.217.129.139'},"[['23.217.129.139'], ['23.217.129.139'], ['23.217.129.139'], ['23.217.129.139']]",NONE,['AS7922'],['AS7922'],"['AS7922', 'AS7922', 'AS7922', 'AS7922']",no,"('a23-217-129-139.deploy.static.akamaitechnologies.com', [], ['23.217.129.139'])"
+TeleSUR English (VE),"['""24/7 WORLD NEWS"",TeleSUR English (VE)']",['99.84.106.22'],{'99.84.106.22'},"[['99.84.106.22', '99.84.106.65']]",NONE,['AS16509'],['AS16509'],['AS16509'],no,"('server-99-84-106-22.iad79.r.cloudfront.net', [], ['99.84.106.22'])"
+i24 News (IL),"['""24/7 WORLD NEWS"",i24 News (IL)']",['23.221.72.16'],['NONE'],"[['23.221.72.16'], ['23.221.72.16'], ['23.221.72.16']]",NONE,['AS20940'],['NONE'],"['AS20940', 'AS20940', 'AS20940']",yes,"('a23-221-72-16.deploy.static.akamaitechnologies.com', [], ['23.221.72.16'])"
+~ 24/7 World News ~,"['""LABEL"",~ 24/7 World News ~']",[],['NONE'],[],Error,[],['NONE'],[],,

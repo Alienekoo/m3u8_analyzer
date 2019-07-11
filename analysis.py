@@ -18,37 +18,6 @@ def convertdot(d):
         new[k.replace('__DOT__', '.')] = v
     return new
 
-cur1 = convertdot(cur[1])
-
-
-
-newdict = ipdict.IPdict(cur1)
-newone = newdict.getdict()
-# ==================================== dataframe ===================================
-if "default_ch0" not in cur1.keys():
-    newframe = DataFrame.DataFrame(newone)
-    newframedict = newframe.read_channels()
-    myframe = newframe.DataFramee()
-    myframe.to_csv('file9.csv')
-
-
-print("playlists =  ", newdict.length_list)
-print("repositories = ", len(cur))
-
-# ======================================= ts_url ===================================
-
-ts_url = newdict.ts_URLs
-for k,v in ts_url.items():
-    if len(v)<100:
-        pass
-    else:
-        ts_url[k] = random.sample(v, 100)
-
-if "default_ch0" not in ts_url.keys():
-    ts_url["type"] = "train"
-else:
-    ts_url["type"] = "test"
-
 
 def convertdot1(d):
     new = {}
@@ -57,8 +26,45 @@ def convertdot1(d):
             v = convertdot(v)
         new[k.replace('.', '__DOT__')] = v
     return new
+for i in range(len(cur)):
+    cur1 = convertdot(cur[i])
+    newdict = ipdict.IPdict(cur1)
+    newone = newdict.getdict()
+    # ==================================== dataframe ===================================
+    if "default_ch0" not in cur1.keys():
+        newframe = DataFrame.DataFrame(newone)
+        newframedict = newframe.read_channels()
+        myframe = newframe.DataFramee()
+        myframe.to_csv('file9.csv')
 
-ts_url1 = convertdot1(ts_url)
-mydb = conn["mydatabase_2"]
-mycol = mydb["ts_url"]
-x = mycol.insert_one(ts_url1).inserted_id
+    print("playlists =  ", newdict.length_list)
+    print("repositories = ", len(cur))
+
+    # ======================================= ts_url ===================================
+
+    ts_url = newdict.ts_URLs
+    for k, v in ts_url.items():
+        if len(v) < 100:
+            pass
+        else:
+            ts_url[k] = random.sample(v, 100)
+
+    if "default_ch0" not in ts_url.keys():
+        ts_url["type"] = "train"
+    else:
+        ts_url["type"] = "test"
+
+
+
+
+
+    ts_url1 = convertdot1(ts_url)
+    mydb = conn["mydatabase_2"]
+    mycol = mydb["ts_url"]
+    x = mycol.insert_one(ts_url1).inserted_id
+
+
+
+
+
+
