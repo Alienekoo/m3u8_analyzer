@@ -25,7 +25,7 @@ def convertdot1(d):
     new = {}
     for k, v in d.items():
         if isinstance(v, dict):
-            v = convertdot(v)
+            v = convertdot1(v)
         new[k.replace('.', '__DOT__')] = v
     return new
 
@@ -120,7 +120,7 @@ def getDataAndLabelsTrain(ts_url):
     mycol = mydb["train_data"]
     x = mycol.insert_one(data_dict).inserted_id
     mycol1 = mydb["channels_train"]
-    y = mycol1.insert_one(channels).inserted_id
+    y = mycol1.insert_one(convertdot1(channels)).inserted_id
     mycol2 = mydb["urls_train"]
     z = mycol2.insert_one(convertdot1(urls)).inserted_id
 
@@ -207,7 +207,7 @@ def getDataTrain(ts_url):
     z = mycol2.insert_one(convertdot1(urls)).inserted_id
 
 
-ts_url = convertdot(cur[0])
+ts_url = convertdot(cur[len(cur)-1])
 
 if ts_url['type'] == "train":
     ts_url.pop('type', None)

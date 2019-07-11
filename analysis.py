@@ -18,7 +18,7 @@ def convertdot(d):
         new[k.replace('__DOT__', '.')] = v
     return new
 
-cur1 = convertdot(cur[10])
+cur1 = convertdot(cur[8])
 
 
 

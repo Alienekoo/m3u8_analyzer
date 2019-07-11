@@ -11,6 +11,13 @@ import pandas as pd
 import random
 import pymongo
 
+def convertdot1(d):
+    new = {}
+    for k, v in d.items():
+        if isinstance(v, dict):
+            v = convertdot1(v)
+        new[k.replace('.', '__DOT__')] = v
+    return new
 conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 db = conn.mydatabase_2
 col = db.train_data
@@ -30,7 +37,7 @@ cur2 = list(col2.find({}, {'_id': False}))
 
 channels_train = dict()
 for i in range(len(cur2)):
-    channels_train.update(cur2[i])
+    channels_train.update(convertdot1(cur2[i]))
 
 # ================================================================= ML part ============================================================================================
 
