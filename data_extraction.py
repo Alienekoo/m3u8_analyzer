@@ -4,6 +4,7 @@ import random
 from string import ascii_lowercase
 import pandas as pd
 from random import randint
+import math
 # ============================================================== data extraction =======================================================================================
 conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 mydb = conn.mydatabase_2
@@ -12,6 +13,13 @@ cur = list(myts.find({}, {'_id': False}))
 
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
+
+def convertToNumber (s):
+    return int.from_bytes(s.encode(), 'little')
+
+def convertFromNumber (n):
+    return n.to_bytes(math.ceil(n.bit_length() / 8), 'little').decode()
+
 
 def convertdot(d):
     new = {}
@@ -52,9 +60,8 @@ def getDataAndLabelsTrain(ts_url):
     s0 = ''
     for k, v in ts_url.items():
 
-        counter = alphabet_position(k) %10000000000
+        counter = str(alphabet_position(k))
                   # + int(str(alphabet_position(k))[:5])
-        counter2 = random_with_N_digits(10)
 
         if v == []:
             s0 = 'dump'
@@ -73,6 +80,7 @@ def getDataAndLabelsTrain(ts_url):
                     netloc_status = urls[s0]
                     s0 = 'dump1'
                 else:
+                    counter2 = str(convertToNumber(s0))
                     netloc_status = counter2
 
                 s1 = urlparse.urlsplit(v[i]).path
@@ -113,7 +121,7 @@ def getDataAndLabelsTrain(ts_url):
                 labels.append(counter)
 
         # print("s0 is ", s0)
-        urls[s0] = counter2
+            urls[s0] = counter2
         channels[k] = counter
 
     data_dict = {'labels': labels, 'data': data}
@@ -136,9 +144,6 @@ def getDataTrain(ts_url):
     s0 = ''
     for k, v in ts_url.items():
 
-        counter = alphabet_position(k) % 10000000000
-        # + int(str(alphabet_position(k))[:5])
-        counter2 = random_with_N_digits(10)
 
         if v == []:
             s0 = 'dump'
@@ -160,6 +165,7 @@ def getDataTrain(ts_url):
                     netloc_status = urls[s0]
                     s0 = 'dump1'
                 else:
+                    counter2 = str(convertToNumber(s0))
                     netloc_status = counter2
 
                 s1 = urlparse.urlsplit(v[i]).path
@@ -199,7 +205,7 @@ def getDataTrain(ts_url):
                 data.append(split_list)
 
         # print("s0 is ", s0)
-        urls[s0] = counter2
+            urls[s0] = counter2
     data_dict = {'data': data}
     mycol = mydb["test_data"]
     x = mycol.insert_one(data_dict).inserted_id

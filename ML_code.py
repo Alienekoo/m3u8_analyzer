@@ -28,14 +28,19 @@ data_test = []
 for i in range(len(cur)):
     labels += cur[i]['labels']
     data += cur[i]['data']
-# labels = cur[0]['labels']+cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
-# data = cur[0]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
+# labels = cur[0]['labels']+cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']
+# data = cur[0]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']
+for i in range(len(labels)):
+    labels[i] = int(labels[i])
+for i in range(len(data)):
+    data[i][1] = int(data[i][1])
 
 col1 = db.test_data
 cur1 = list(col1.find({}, {'_id': False}))
 for i in range(len(cur1)):
     data_test += cur1[i]['data']
-
+for i in range(len(data_test)):
+    data_test[i][1] = int(data_test[i][1])
 col2 = db.channels_train
 cur2 = list(col2.find({}, {'_id': False}))
 
@@ -92,7 +97,7 @@ for i in range(len(data_test)):
         if v == data_pred[i]:
             print("pred is: ", k)
         # if v == labels_test[i]:
-            print("label is: ", k)
+            # print("label is: ", k)
 
 
 '''
