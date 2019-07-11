@@ -213,16 +213,20 @@ def getDataTrain(ts_url):
     z = mycol2.insert_one(convertdot1(urls)).inserted_id
 
 
-ts_url = convertdot(cur[len(cur)-1])
+# ts_url = convertdot(cur[len(cur)-1])
 
-if ts_url['type'] == "train":
-    ts_url.pop('type', None)
-    getDataAndLabelsTrain(ts_url)
-elif ts_url['type'] == 'test':
-    ts_url.pop('type', None)
-    getDataTrain(ts_url)
-else:
-    print("Invalid file")
+for i in range(len(cur)):
+    ts_url = convertdot(cur[i])
+    if ts_url['type'] == "train":
+        ts_url.pop('type', None)
+        getDataAndLabelsTrain(ts_url)
+    elif ts_url['type'] == 'test':
+        ts_url.pop('type', None)
+        getDataTrain(ts_url)
+    else:
+        print("Invalid file")
+
+
 
 
 
