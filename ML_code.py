@@ -22,14 +22,20 @@ conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 db = conn.mydatabase_2
 col = db.train_data
 cur = list(col.find({}, {'_id': False}))
-labels = cur[1]['labels']
-#  cur[0]['labels']+cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
-data = cur[1]['data']
-#  cur[0]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
+labels = []
+data = []
+data_test = []
+for i in range(len(cur)):
+    labels += cur[i]['labels']
+    data += cur[i]['data']
+# labels = cur[0]['labels']+cur[1]['labels']+cur[2]['labels']+cur[3]['labels']+cur[4]['labels']+cur[5]['labels']+
+# data = cur[0]['data']+cur[1]['data']+cur[2]['data']+cur[3]['data']+cur[4]['data']+cur[5]['data']+
 
 col1 = db.test_data
 cur1 = list(col1.find({}, {'_id': False}))
-data_test = cur1[0]['data']
+for i in range(len(cur1)):
+    data_test += cur1[i]['data']
+
 col2 = db.channels_train
 cur2 = list(col2.find({}, {'_id': False}))
 
@@ -40,10 +46,11 @@ for i in range(len(cur2)):
     channels_train.update(convertdot1(cur2[i]))
 
 # ================================================================= ML part ============================================================================================
+data_train = data
+labels_train = labels
 
-
-data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.22, random_state=42)
-print(len(labels_test), len(labels_train))
+# data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.22, random_state=42)
+# print(len(labels_test), len(labels_train))
 
 clf = RandomForestClassifier(n_estimators=100)
 clf.fit(data_train, labels_train)
@@ -52,10 +59,11 @@ data_pred = clf.predict(data_test)
 print("RamdomForest pred: ", data_pred)
 
 
-
+'''
 score = clf.score(data_test, labels_test)
 print("RandomForest score: ", score)
 print("Accuracy with randomForest data: ", metrics.accuracy_score(labels_test, data_pred))
+'''
 
 data_train = array(data_train)
 std = np.std([tree.feature_importances_ for tree in clf.estimators_],
@@ -83,7 +91,7 @@ for i in range(len(data_test)):
 
         if v == data_pred[i]:
             print("pred is: ", k)
-        if v == labels_test[i]:
+        # if v == labels_test[i]:
             print("label is: ", k)
 
 
