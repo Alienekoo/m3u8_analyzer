@@ -60,8 +60,7 @@ def getDataAndLabelsTrain(ts_url):
     s0 = ''
     for k, v in ts_url.items():
 
-        counter = str(alphabet_position(k))
-                  # + int(str(alphabet_position(k))[:5])
+        counter = alphabet_position(k) % 1000000000000000000 + int(str(alphabet_position(k))[:5])
 
         if v == []:
             s0 = 'dump'
@@ -115,8 +114,8 @@ def getDataAndLabelsTrain(ts_url):
                     s = 1
                 fragment_status = int(s)
 
-                split_list = [http_status, netloc_status, path_status_1, path_status_2, path_status_3, path_status_4,
-                              path_status_5, path_status_6, query_status, fragment_status]
+                split_list = [http_status, path_status_1, path_status_2, path_status_3, path_status_4,
+                              path_status_5, path_status_6, query_status, fragment_status, netloc_status]
                 data.append(split_list)
                 labels.append(counter)
 
@@ -141,6 +140,7 @@ def getDataTrain(ts_url):
 
     data = []
     urls = dict()
+    counter2 = ''
     s0 = ''
     for k, v in ts_url.items():
 
@@ -200,8 +200,8 @@ def getDataTrain(ts_url):
                     s = 1
                 fragment_status = int(s)
 
-                split_list = [http_status, netloc_status, path_status_1, path_status_2, path_status_3, path_status_4,
-                              path_status_5, path_status_6, query_status, fragment_status]
+                split_list = [http_status, path_status_1, path_status_2, path_status_3, path_status_4,
+                              path_status_5, path_status_6, query_status, fragment_status, netloc_status]
                 data.append(split_list)
 
         # print("s0 is ", s0)
