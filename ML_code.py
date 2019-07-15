@@ -70,12 +70,13 @@ for i in range(len(cur2)):
     channels_train.update(convertdot1(cur2[i]))
 
 # ================================================================= ML part ============================================================================================
-data_train = new_data
+'''data_train = new_data
 labels_train = labels
 data_test = new_data_test
-# data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.22, random_state=42)
+labels_test = cur2[3]'''
+data = new_data
+data_train, data_test, labels_train, labels_test = train_test_split(data, labels, test_size=0.22, random_state=42)
 print(len(data_test), len(labels_train))
-
 
 clf = RandomForestClassifier(n_estimators=100)
 clf.fit(data_train, labels_train)
@@ -83,19 +84,18 @@ importances = clf.feature_importances_
 data_pred = clf.predict(data_test)
 print("RamdomForest pred: ", data_pred)
 
-print(len(channels_train))
-
+score = clf.score(data_test, labels_test)
+print("RandomForest score: ", score)
 for i in range(len(data_test)):
     for k,v in channels_train.items():
         if v == data_pred[i]:
             print("pred is: ", k)
-        # if v == labels_test[i]:
-            # print("label is: ", k)
+        if v == labels_test[i]:
+            print("label is: ", k)
 
 '''
 
-score = clf.score(data_test, labels_test)
-print("RandomForest score: ", score)
+
 print("Accuracy with randomForest data: ", metrics.accuracy_score(labels_test, data_pred))
 
 

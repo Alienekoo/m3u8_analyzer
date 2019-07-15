@@ -149,7 +149,7 @@ def getDataTrain(ts_url):
             s0 = 'dump'
         else:
             for i in range(len(v)):
-
+                length_url = len(v[i])
                 if urlparse.urlsplit(v[i]).scheme == 'http':
                     http_status = 1
                 elif urlparse.urlsplit(v[i]).scheme == 'https':
@@ -201,7 +201,7 @@ def getDataTrain(ts_url):
                 fragment_status = int(s)
 
                 split_list = [http_status, path_status_1, path_status_2, path_status_3, path_status_4,
-                              path_status_5, path_status_6, query_status, fragment_status, netloc_status]
+                              path_status_5, path_status_6, query_status, fragment_status, netloc_status, length_url ]
                 data.append(split_list)
 
         # print("s0 is ", s0)
