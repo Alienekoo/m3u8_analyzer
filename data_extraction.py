@@ -6,6 +6,11 @@ import pandas as pd
 from random import randint
 import math
 # ============================================================== data extraction =======================================================================================
+# Takes ts URLs data from pymongo, and checks if they are test data or train data.
+# Extracts the features and labels for the train data and uploads them on pymongo Database
+# Extracts the features of test data and uploads them on pymongo Database
+
+
 conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 mydb = conn.mydatabase_2
 myts = mydb.ts_url
@@ -225,30 +230,6 @@ for i in range(len(cur)):
         getDataTrain(ts_url)
     else:
         print("Invalid file")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # print(channels_train)
 

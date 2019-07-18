@@ -6,6 +6,11 @@ import random
 import datetime
 from pprint import pprint
 
+# Takes the dictionary from the pymongo database. Replaces all the URLs in the dictionary with their respective IPs using IPdict Class.
+# Creates a DataFrame that shows eacj channels' IPs, ASNs and HLS status and saves it to a csv file using DataFrame Class.
+# Extracts and makes a dictionary of .ts URls: {channals :[.ts URLs list...], ...}
+# Uploads the ts URLs dictionary to pymongo database
+
 conn = pymongo.MongoClient("mongodb://192.168.5.157:27017/")
 db = conn.mydatabase
 col = db.m3u8_files
@@ -56,7 +61,7 @@ for i in range(2):
         newframe = DataFrame.DataFrame(newone)
         newframedict = newframe.read_channels()
         myframe = newframe.DataFramee()
-        myframe.to_csv('file9.csv')
+        myframe.to_csv('file%d.csv') % (i)
 
     print("playlists =  ", newdict.length_list)
     print("repositories = ", len(cur))

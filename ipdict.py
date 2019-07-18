@@ -3,6 +3,9 @@ import datetime
 from pprint import pprint
 class IPdict:
 
+# Takes in the m3 dictionary and replaces m3u8 URLs and .ts URLs with their IPs if availabale else with error message.
+# Lowkey collects all .ts URLs too
+
     def __init__(self, m3dict):
         self.m3dict = m3dict
         self.tsip = []

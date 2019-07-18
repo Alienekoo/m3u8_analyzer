@@ -12,6 +12,10 @@ import random
 from pprint import pprint
 import pymongo
 
+
+# Different ML models to test the data
+
+
 def my_hash(line):
     n = 12
     sum = 0
@@ -82,16 +86,16 @@ clf = RandomForestClassifier(n_estimators=100)
 clf.fit(data_train, labels_train)
 importances = clf.feature_importances_
 data_pred = clf.predict(data_test)
-print("RamdomForest pred: ", data_pred)
+# print("RamdomForest pred: ", data_pred)
 
 score = clf.score(data_test, labels_test)
 print("RandomForest score: ", score)
 for i in range(len(data_test)):
     for k,v in channels_train.items():
         if v == data_pred[i]:
-            print("pred is: ", k)
+            print("Random Forest prediction is: ", k)
         if v == labels_test[i]:
-            print("label is: ", k)
+            print("Actual label is: ", k)
 
 '''
 

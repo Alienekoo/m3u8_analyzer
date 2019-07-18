@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="899a7855-c80c-4fe9-85fd-ea42b195d6af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Code.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipdict.py" beforeDir="false" afterPath="$PROJECT_DIR$/ipdict.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="109">
+              <caret line="9" column="122" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#289#444#0" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
+            <state relative-caret-position="649">
+              <caret line="232" selection-start-line="232" selection-end-line="232" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-686">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -56,22 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/importances.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataFrame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+            <state relative-caret-position="1500">
+              <caret line="100" column="168" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="168" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -79,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ipdict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="285">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -112,10 +102,10 @@
         <option value="$PROJECT_DIR$/DataFrame.py" />
         <option value="$PROJECT_DIR$/importances.py" />
         <option value="$PROJECT_DIR$/test_data_extraction.py" />
-        <option value="$PROJECT_DIR$/ipdict.py" />
         <option value="$PROJECT_DIR$/data_extraction.py" />
-        <option value="$PROJECT_DIR$/analysis.py" />
         <option value="$PROJECT_DIR$/ML_code.py" />
+        <option value="$PROJECT_DIR$/analysis.py" />
+        <option value="$PROJECT_DIR$/ipdict.py" />
       </list>
     </option>
   </component>
@@ -130,7 +120,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="receive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="receive" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -156,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ML">
+  <component name="RunManager" selected="Python.analysis">
     <configuration name="DataFrame" type="PythonConfigurationType" factoryName="Python">
       <module name="receive" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,11 +308,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.importances" />
+      <item itemvalue="Python.data_extraction" />
       <item itemvalue="Python.DataFrame" />
       <item itemvalue="Python.ML" />
       <item itemvalue="Python.analysis" />
-      <item itemvalue="Python.data_extraction" />
-      <item itemvalue="Python.importances" />
       <item itemvalue="Python.ipdict" />
       <item itemvalue="Python.set" />
     </list>
@@ -340,7 +343,7 @@
     <frame x="70" y="27" width="1850" height="957" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15873016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15873016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -444,9 +447,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/importances.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="116">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -454,10 +467,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ML_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-686">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="122" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#289#444#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataFrame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+        <state relative-caret-position="1500">
+          <caret line="100" column="168" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="168" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -466,41 +500,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ipdict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#289#444#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
